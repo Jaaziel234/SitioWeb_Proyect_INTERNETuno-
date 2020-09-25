@@ -6,11 +6,18 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Fjalla One', sans-serif;
 }
-.titulo-principal{
+.titulo{
     z-index: 1;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+}
+.titulo h1{
     font-size: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
     top: 80px;
-    left: 29%;
 }
 p{
     font-family: 'Roboto', sans-serif;
