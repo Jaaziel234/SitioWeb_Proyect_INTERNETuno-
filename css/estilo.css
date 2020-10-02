@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
 }
 .carousels{
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .titulo h1{
     font-size: 80px;
