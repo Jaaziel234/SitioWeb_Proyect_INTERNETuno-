@@ -7,6 +7,10 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/estilo.css">
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        
+         <!---link animate.css CDN---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
         <!---Iconos---->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     </head>
@@ -42,7 +46,7 @@
                                 <li data-target="#carousel" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner">
-                                <div class="titulo">
+                                <div class="titulo animate__animated animate__jello">  
                                     <h1>TURISMO EN EL SALVADOR</h1>
                                 </div>
                                 <div class="carousel-item active">
@@ -87,7 +91,7 @@
         <!---Fin informacion---->
         <!---Tarjetas ----->
         <section class="content2">
-            <div class="container p-4">
+            <div class="container p-4 ">
                 <div class="content-title">
                     <h3 class="text-center">Los mejores lugares de El Salvador</h3>
                 </div>
@@ -95,7 +99,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
                         <div class="card shadow-md m-3" style="width: 18rem;">
                             <img src="img/Lago-de-Coatepeque-tar.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="card-body  wow animate__animated animate__shakeX">
                                 <h5 class="card-title">Lago de Coatepeque</h5>
                                 <p class="card-text">Lo bonito y curioso de este lago es su origen volcánico y que en los últimos años el lago ha cambiado a color turquesa</p>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">
@@ -131,7 +135,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
                         <div class="card shadow-md m-3" style="width: 18rem;">
                             <img src="img/El-tunco-tar.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="card-body wow animate__animated animate__shakeX">
                                 <h5 class="card-title">Playa El tunco</h5>
                                 <p class="card-text">Definitivamente uno de mis lugares favoritos del país. Es una de las playas más populares, dado que el surf...</p>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">
@@ -169,7 +173,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
                         <div class="card shadow-md m-3" style="width: 18rem;">
                             <img src="img/volcan-santa-ana-tar.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="card-body wow animate__animated animate__shakeX">
                                 <h5 class="card-title">Volcán Ilamatepec</h5>
                                 <p class="card-text">Muchos turistas escalan este volcán (el más alto del país) con el objetivo de llegar a su cráter...</p>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">
@@ -216,7 +220,7 @@
                         <p>Oferta gastronómica y vida nocturna concentrada en su elegante Zona Rosa, son otro de sus atractivos, un vibrante barrio donde convergen hoteles, bares, restaurantes, cafés, museos, torres de apartamentos y embajadas.</p>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-                        <img class="img-fluid" src="img/capital-san-salvador.jpg" alt="Centro historico">
+                        <img class="img-fluid" src="img/capital-san-salvador.jpg" alt="sCentro historico">
                     </div>
                 </div>
             </article>
@@ -261,5 +265,8 @@
         <script src="js/jquery-3.4.1.slim.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script> <!--Mandamos a llamar nuestro arhivo wow--->
+        <script> new WOW().init();</script> <!----->
+        
     </body>
 </html>
