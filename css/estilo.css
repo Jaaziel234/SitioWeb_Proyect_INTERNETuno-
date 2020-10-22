@@ -56,8 +56,19 @@ p{
 .contact ul{
     list-style: none;
 }
-
-
+/*Estilos de footer & Copyright*/
+.color-gris{
+    font-size: 14px;
+    color: #F2F2F2;
+    opacity: 0.3;
+}
+/*Hover de tarjetas*/
+.card{
+    transition:all ease-out .2s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
 
 
 
